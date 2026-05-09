@@ -1,0 +1,117 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+
+# Logs
+logs/
+*.log
+log.txt
+access.log
+error.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.workspace
+*.sublime-project
+*.sublime-workspace
+.vscode-test/
+
+# Testing coverage
+coverage/
+.nyc_output/
+*.cov
+
+# Build files
+dist/
+build/
+.temp/
+
+# Railway specific
+.railway/
+railway.json
+
+# Heroku specific
+.heroku/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# SSL certificates
+*.pem
+*.crt
+*.key
+
+# Secret files
+secrets/
+.secrets
+*.secret
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Debug files
+debug.log
+debug/
+
+# Package files (keep .gitkeep for empty folders)
+!.gitkeep
+
+# Node.js specifics
+node_modules
+npm-debug.log
+yarn-error.log
+.env
+
+# MySQL dump files
+*.sql
+*.dump
+!database/migration.sql  # Keep migration script
+
+# PM2 logs
+.pm2/
+
+# Dotenv files
+.env.*
+!.env.example
+
+# Uploads
+uploads/
+files/
+public/uploads/
